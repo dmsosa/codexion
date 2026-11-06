@@ -1,0 +1,7 @@
+Reprends celles de la suite :
+/tmp/codexion_tsan 4 1000 60 60 60 2 10 fifo
+/tmp/codexion_tsan 4 1000 60 60 60 2 10 edf
+/tmp/codexion_tsan 1 1000 50 10 10 2 10 fifo     # burnout intentionnel
+/tmp/codexion_tsan 12 5000 10 10 10 2 0 edf
+/tmp/codexion_tsan 5 3000 50 10 10 3 100 fifo
+/tmp/codexion_tsan 2 100 80 20 20 5 0 fifo        # burnout
